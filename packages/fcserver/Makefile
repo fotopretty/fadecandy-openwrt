@@ -6,7 +6,7 @@ PKG_VERSION:=0.2
 PKG_REV:=0c39f05138b606e2bef6a29672b57793896e9126
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=git://github.com/scanlime/fadecandy
+PKG_SOURCE_URL:=git://github.com/pixelmatix/fadecandy
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
 PKG_SOURCE_VERSION:=$(PKG_REV)
@@ -19,7 +19,7 @@ define Package/fcserver
   SECTION:=utils
   CATEGORY:=Utilities
   TITLE:=FadeCandy Server
-	URL:=https://github.com/scanlime/fadecandy
+	URL:=https://github.com/pixelmatix/fadecandy
 	DEPENDS:=+libpthread +librt +uclibcxx +libstdcpp +libc +libusbx 
 endef
 
