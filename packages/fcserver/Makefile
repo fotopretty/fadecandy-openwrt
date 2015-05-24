@@ -3,8 +3,6 @@ include $(TOPDIR)/rules.mk
 PKG_NAME:=fcserver
 PKG_VERSION:=0.2
 
-PKG_REV:=0c39f05138b606e2bef6a29672b57793896e9126
-
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=git://github.com/pixelmatix/fadecandy
 PKG_SOURCE_PROTO:=git
